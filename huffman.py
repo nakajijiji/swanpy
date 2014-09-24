@@ -30,7 +30,7 @@ class Huffman:
             return None
         current = self.top
         result = {}
-        codes = [0]
+        codes = []
         self.__search(result, codes, current)
         return result
                 
